@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StyleCss.css" />
+    <title>Responsive Block Layout</title>
+    <style>
+      .container {
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        position: relative;
+      }
+      .block {
+        border: 1px solid black;
+      }
+      .blue {
+        background-color: blue;
+        height: 10%;
+        width: 100%;
+      }
+      .yellow {
+        background-color: yellow;
+        width: 20%;
+        height: 80%;
+        float: left;
+      }
+      .white {
+        background-color: white;
+        height: 80%;
+        float: left;
+        width: 60%;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html" class="button">Home</a>
+    <div class="container">
+      <div class="blue"></div>
+      <!-- Section 1 -->
+      <div class="yellow"></div>
+      <!-- Section 2 -->
+      <div class="white"></div>
+      <!-- Section 4 -->
+      <div class="yellow" style="float: right"></div>
+      <!-- Section 5 -->
+      <div class="clear"></div>
+      <div class="blue"></div>
+      <!-- Section 3 -->
+    </div>
+  </body>
+</html>
