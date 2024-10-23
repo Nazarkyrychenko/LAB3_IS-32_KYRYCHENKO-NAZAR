@@ -1,0 +1,117 @@
+
+.button {
+	display: inline-block;
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 5px 0;
+  }
+  .button:hover {
+	background-color: #45a049;
+  }
+
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-links a, .navbar-location a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.course-header {
+    background: #FF8C00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.course-details h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.course-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-details button {
+    background: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: #e0f7fa;
+}
+
+.plan {
+    background: #00796b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 1.5em;
+}
+
+.plan p {
+    font-size: 2em;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan button {
+    background: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.cta, .qa-course {
+    text-align: center;
+    padding: 20px;
+    background: #00796b;
+    color: white;
+    margin: 20px 0;
+}
+
+.cta button, .qa-course button {
+    background: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
